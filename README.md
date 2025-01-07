@@ -1,10 +1,10 @@
 # Welcome to my Personal Portfolio Website 💻
-This is the first website I have ever built using HTML and CSS. I created it as practice for some of the concepts I have encountered in different courses I have taken.
-#### It features:
+This website was created as practice for some of the concepts I have encountered in different courses. As I keep building on my current skills, I will add new features and improve them over time.
+#### Features:
 - Responsive design
 - Project section
 - Contact form
-#### Access it:
+#### Access:
 https://nicodiazag.github.io/personal-portfolio/
-#### Feel free to contact me about it!
-If you have any questions or requests, don't hesitate to contact me.
+#### Feel free to contact me!
+If you have any questions or requests, please don't hesitate to let me know.
