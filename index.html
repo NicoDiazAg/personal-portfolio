@@ -17,7 +17,9 @@
   </head>
   <body>
     <header class="header">
-      <h1 class="header__h1"><span class="nowrap"><a href="#">Nico Diaz-Aguilar</span></a></h1>
+      <h1 class="header__h1">
+        <span class="nowrap"><a href="#">Nico Diaz-Aguilar</a></span>
+      </h1>
       <nav class="header__nav">
         <ul class="header__ul">
           <li>
@@ -70,10 +72,14 @@
           </div>
         </article>
         <p class="hero__p1">
-          Hey! I'm Nico, a third-year student-athlete at Hobart and William Smith Colleges pursuing a Computer Science major with minors in Entrepreneurial Studies and Asian Studies. I'm experienced in leading teams and building cross-cultural connections. I code in Java, Python, JavaScript, HTML/CSS, and SQL.
+          Hey! I'm Nico, an undergraduate student at Hobart and William Smith
+          Colleges majoring in Computer Science. I'm experienced in software
+          development, data analytics, and multimedia creation. I'm passionate
+          about learning new skills and achieving high proficiency in what I do.
         </p>
         <p class="hero__p2">
-          Apart from academics, I enjoy learning Chinese, playing volleyball, and learning new skills.
+          Apart from academics I enjoy playing volleyball, learning new
+          languages, and sculpting!
         </p>
       </section>
       <section id="skills" class="skills">
@@ -105,7 +111,34 @@
         <div class="projects__container">
           <article class="projects__card">
             <a
+              href="https://github.com/NicoDiazAg/study-abroad-database-driven-application"
+              target="_blank"
+            >
+              <img
+                src="img/project_2_551x415.png"
+                alt="Study Abroad Database Driven Application"
+                class="projects__img"
+              />
+              <div class="projects__content">
+                <h3 class="projects__title">
+                  Study Abroad Database Driven Application
+                </h3>
+                <p class="projects__description">
+                  Created a database using MySQL for my university's study
+                  abroad management system, and a simple application using Java
+                  that tests its features.
+                </p>
+                <div class="projects__skills">
+                  <i class="fa-solid fa-database projects__i"></i>
+                  <i class="fa-brands fa-java projects__i"></i>
+                </div>
+              </div>
+            </a>
+          </article>
+          <article class="projects__card">
+            <a
               href="https://github.com/NicoDiazAg/soccer-lineup-builder/tree/main"
+              target="_blank"
             >
               <img
                 src="img/project_1_631x422.png"
@@ -126,44 +159,35 @@
           </article>
           <article class="projects__card">
             <a
-              href="https://github.com/NicoDiazAg/study-abroad-database-driven-application"
+              href="https://github.com/NicoDiazAg/rock-paper-scissors"
+              target="_blank"
             >
               <img
-                src="img/project_2_551x415.png"
-                alt="Study Abroad Database Driven Application"
+                src="img/project_3_551x427.png"
+                alt="Rock-Paper-Scissors"
                 class="projects__img"
               />
               <div class="projects__content">
-                <h3 class="projects__title">
-                  Study Abroad Database Driven Application
-                </h3>
+                <h3 class="projects__title">Rock-Paper-Scissors</h3>
                 <p class="projects__description">
-                  Created a database using MySQL for my university's study abroad
-                  management system, and a simple application using Java that
-                  tests its features.
+                  Coded a simple rock-paper-scissors game using HTML, CSS, and
+                  JavaScript.
                 </p>
                 <div class="projects__skills">
-                  <i class="fa-solid fa-database projects__i"></i>
-                  <i class="fa-brands fa-java projects__i"></i>
+                  <i class="fa-brands fa-html5 projects__i"></i>
+                  <i class="fa-brands fa-css projects__i"></i>
+                  <i class="fa-brands fa-js projects__i"></i>
                 </div>
               </div>
             </a>
           </article>
           <article class="projects__card">
-            <a href="">
-              <img src="img/dummy.jpg" alt="Future Project" class="projects__img" />
-              <div class="projects__content">
-                <h3 class="projects__title">Coming Soon!</h3>
-                <p class="projects__description">Project yet to be uploaded.</p>
-                <div class="projects__skills">
-                  <i class="fa-brands fa-python projects__i"></i>
-                </div>
-              </div>
-            </a>
-          </article>
-          <article class="projects__card">
-            <a href="">
-              <img src="img/dummy.jpg" alt="Future Project" class="projects__img" />
+            <a href="#projects">
+              <img
+                src="img/dummy.jpg"
+                alt="Future Project"
+                class="projects__img"
+              />
               <div class="projects__content">
                 <h3 class="projects__title">Coming Soon!</h3>
                 <p class="projects__description">Project yet to be uploaded.</p>
@@ -178,42 +202,74 @@
       <section id="contact" class="contact">
         <i class="fa-solid fa-inbox contact__icon"></i>
         <h2 class="contact__h2">Contact Me!</h2>
-          <article class="contact__container">
-            <div class="contact__decoration-left">
-              <i class="contact__decoration-icon fa-solid fa-code"></i>
-              <i class="contact__decoration-icon fa-solid fa-terminal"></i>
-              <i class="contact__decoration-icon fa-solid fa-laptop-code"></i>
-              <i class="contact__decoration-icon fa-solid fa-keyboard"></i>
-            </div>
-            <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
-              <input type="hidden" name="access_key" value="2f6ccf52-562d-4a23-9578-3ed5c2695809">
-              <fieldset class="contact__fieldset">
-                <legend class="offscreen">Send Me a Message!</legend>
-                <p class="contact__p" for="name">
-                <input type="text" class="contact__input" name="name" id="name" placeholder="Your Name" required>
+        <article class="contact__container">
+          <div class="contact__decoration-left">
+            <i class="contact__decoration-icon fa-solid fa-code"></i>
+            <i class="contact__decoration-icon fa-solid fa-terminal"></i>
+            <i class="contact__decoration-icon fa-solid fa-laptop-code"></i>
+            <i class="contact__decoration-icon fa-solid fa-keyboard"></i>
+          </div>
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="contact__form"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="2f6ccf52-562d-4a23-9578-3ed5c2695809"
+            />
+            <fieldset class="contact__fieldset">
+              <legend class="offscreen">Send Me a Message!</legend>
+              <p class="contact__p" for="name">
+                <input
+                  type="text"
+                  class="contact__input"
+                  name="name"
+                  id="name"
+                  placeholder="Your Name"
+                  required
+                />
               </p>
               <p class="contact__p" for="email">
-                <input type="email" class="contact__input" name="email" id="email" placeholder="Your Email" required>
+                <input
+                  type="email"
+                  class="contact__input"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
               </p>
               <p class="contact__p" for="message">
-                <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10" placeholder="Type your message here!"></textarea>
+                <textarea
+                  class="contact__textarea"
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Type your message here!"
+                ></textarea>
               </p>
-              <button type="submit" class="contact__submit">Send Message</button>
-              </fieldset>
-            </form>
-            <div class="contact__decoration-right">
-              <i class="contact__decoration-icon fa-solid fa-code-branch"></i>
-              <i class="contact__decoration-icon fa-solid fa-bug"></i>
-              <i class="contact__decoration-icon fa-solid fa-coffee"></i>
-              <i class="contact__decoration-icon fa-solid fa-database"></i>
-            </div>
-          </article>
+              <button type="submit" class="contact__submit">
+                Send Message
+              </button>
+            </fieldset>
+          </form>
+          <div class="contact__decoration-right">
+            <i class="contact__decoration-icon fa-solid fa-code-branch"></i>
+            <i class="contact__decoration-icon fa-solid fa-bug"></i>
+            <i class="contact__decoration-icon fa-solid fa-coffee"></i>
+            <i class="contact__decoration-icon fa-solid fa-database"></i>
+          </div>
+        </article>
       </section>
     </main>
   </body>
   <footer>
     <p class="footer__p">
-      <span class="nowrap">Copyright &copy; 2025</span><span class="nowrap"> Nicolas Diaz-Aguilar</span>
+      <span class="nowrap">Copyright &copy; 2025</span
+      ><span class="nowrap"> Nicolas Diaz-Aguilar</span>
     </p>
   </footer>
 </html>
